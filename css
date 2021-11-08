@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background: url(imagens/background.jpg);
+    background-attachment: fixed;
+}
+main{
+    height: 625px;
+}
+.center{
+    position: relative;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}
+
+.lista-cadastro{
+    list-style: none;
+}
+
+.lista-cadastro li{
+    display: inline-block;
+}
+.lista-cadastro li input{
+    height: 40px;
+    width: 250px;
+    border-radius: 4px;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+
+.botoes li{
+    margin: 25px 15px 0 15px;
+}
+
+.botoes li button{
+    border:  none;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    background-color: rgb(228, 162, 64);
+    color: white;
+    transition: 1s;
+}.botoes li button:hover{
+    background-color: white;
+    color: black;
+}
+
+.produtos{
+    padding: 20px;
+}
+
+#tabela{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#tabela tr td{
+    width: 120px;
+    font-size: 1.2rem;
+    color: white;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}#tabela tr td:nth-child(1){
+    width: 30px;
+}#tabela tr td:nth-child(2){
+    width: 300px;
+}
+
+#btn_excluir{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    transition: 1s;
+}#btn_excluir:hover{
+    background-color: rgb(161, 54, 54);
+    color: white;
+}
