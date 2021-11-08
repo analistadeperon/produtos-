@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Javascript | Teste prático WPensar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="center">
+            <h1>Cadrastro de Produtos</h1>
+            <section class="cadastro">
+                <ul class="lista-cadastro">
+                    <li><input type="text" placeholder="Produto" id="ip_produto"></li>
+                    <li><input type="number" placeholder="Quantidade" id="ip_qtd" value="0"></li>
+                    <li><input type="number" placeholder="Preço unitário" id="ip_preco" value="0"></li>
+                    <ul class="botoes">
+                        <li><button id="btn_cadastrar">Cadastrar</button></li>
+                    </ul>
+                </ul>
+            </section>
+
+            <section class="produtos">
+                <table id="tabela">
+                    <tr>
+                        <td></td>
+                        <td>Nome</td>
+                        <td>Quant.</td>
+                        <td>Preço</td>
+                        <td>P. Medio</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
